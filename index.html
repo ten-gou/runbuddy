@@ -31,30 +31,111 @@
         </header>
 
         <!--jumbotron-->
-        <section></section>
+        <section class="hero">
+            <!--This is where the signup form goes-->
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!--Form element goes here-->
+                <form>
+                    <!--name of form-->
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+
+                    <!--email of form-->
+                    <label for="email">Enter email address:</label>
+                    <input type="text" placeholder="Your Email Address" name="email" id="email" class="form-input">
+
+                    <!--phone number of form-->
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+
+                    <!--questionaire of form-->
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <label for="checkbox" >
+                          I acknowledge that I am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
+        </section>
 
         <!--what we do section-->
-        <section>
+        <section id="what-we-do">
             <h2>What We Do</h2>
+            <p>
+                We are a multistep aerobic fitness process designed to...
+            </p>
         </section>
 
         <!--what you do section-->
-        <section>
+        <section id="what-you-do">
             <h2>What You Do</h2>
+
+            <div>
+                <!--insert image element here-->
+                <img src="./assets/images/step-1.svg" alt="Step 1" />
+
+                <h3>Step 1: Fill Out the Form Above</h3>
+                <p>You might as well.</p>
+            </div>
+
+            <div>
+                <h3>Step 2: Consult With One Of Our trainers</h3>
+                <img src="./assets/images/step-2.svg" alt="Step 2" />
+
+                <p>Are you looking to bulk, lean up, or enjoy?</p>
+            </div>
+
+            <div>
+                <h3>Step 3: Get Running!</h3>
+                <img src="./assets/images/step-3.svg" alt="Step 3" />
+
+                <p>Hit the ground running once your trainer lays out your plan</p>
+            </div>
+
+            <div>
+                <h3>Step 4: See Results!</h3>
+                <img src="./assets/images/step-4.svg" alt="Step 4" />
+
+                <p>Bi-weekly checkups with your trainer!</p>
+            </div>
+
         </section>
 
         <!--your trainers section-->
-        <section>
+        <section id="your-trainers">
             <h2>Your Trainers</h2>
+            <p>
+                We are a multistep aerobic fitness process designed to...
+            </p>
         </section>
 
         <!--reach out section-->
-        <section>
+        <section id="reach-out">
             <h2>Reach Out</h2>
+            <p>
+                We are a multistep aerobic fitness process designed to...
+            </p>
         </section>
         
         <!--footer element-->
         <footer>
             <h2>❤ Made with love by Run Buddy.</h2>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                 &copy; 2019 Run Buddy, Inc.
+            </div>
         </footer>
     </body>
